@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 10px;
+
+  .content {
+    h2 {
+      font-family: Ledger;
+      font-weight: 300;
+      font-size: 38px;
+      text-align: center;
+      line-height: 38px;
+    }
+    
+    .button {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+
+      span {
+        font-size: 24px;
+        font-weight: normal;
+      }
+    }
+  }
+
+}
